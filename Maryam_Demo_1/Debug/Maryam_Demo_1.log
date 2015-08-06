@@ -1,5 +1,5 @@
-﻿Build started 8/3/2015 12:34:13 PM.
-     1>Project "C:\Users\Sudhindra\documents\visual studio 2010\Projects\Maryam_Demo_1\Maryam_Demo_1\Maryam_Demo_1.vcxproj" on node 2 (build target(s)).
+﻿Build started 8/6/2015 04:52:01 PM.
+     1>Project "C:\Users\Sudhindra\Documents\Visual Studio 2010\Projects\Maryam_Demo_1\Maryam_Demo_1\Maryam_Demo_1.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Demo_calculator.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -7,11 +7,11 @@
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Demo_calculator.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Maryam_Demo_1.cpp
          Maryam_Demo_1.cpp
        ResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Maryam_Demo_1.res" Maryam_Demo_1.rc 
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sudhindra\documents\visual studio 2010\Projects\Maryam_Demo_1\Debug\Demo_calculator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Demo_calculator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sudhindra\documents\visual studio 2010\Projects\Maryam_Demo_1\Debug\Demo_calculator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sudhindra\documents\visual studio 2010\Projects\Maryam_Demo_1\Debug\Demo_calculator.lib" /MACHINE:X86 Debug\Maryam_Demo_1.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sudhindra\Documents\Visual Studio 2010\Projects\Maryam_Demo_1\Debug\Demo_calculator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Demo_calculator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sudhindra\Documents\Visual Studio 2010\Projects\Maryam_Demo_1\Debug\Demo_calculator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sudhindra\Documents\Visual Studio 2010\Projects\Maryam_Demo_1\Debug\Demo_calculator.lib" /MACHINE:X86 Debug\Maryam_Demo_1.res
          Debug\Demo_calculator.exe.embed.manifest.res
          Debug\Maryam_Demo_1.obj
          Debug\stdafx.obj
@@ -20,12 +20,12 @@
          All outputs are up-to-date.
        LinkEmbedManifest:
          All outputs are up-to-date.
-         Maryam_Demo_1.vcxproj -> C:\Users\Sudhindra\documents\visual studio 2010\Projects\Maryam_Demo_1\Debug\Demo_calculator.exe
+         Maryam_Demo_1.vcxproj -> C:\Users\Sudhindra\Documents\Visual Studio 2010\Projects\Maryam_Demo_1\Debug\Demo_calculator.exe
        FinalizeBuildStatus:
          Deleting file "Debug\Demo_calculator.unsuccessfulbuild".
          Touching "Debug\Demo_calculator.lastbuildstate".
-     1>Done Building Project "C:\Users\Sudhindra\documents\visual studio 2010\Projects\Maryam_Demo_1\Maryam_Demo_1\Maryam_Demo_1.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Sudhindra\Documents\Visual Studio 2010\Projects\Maryam_Demo_1\Maryam_Demo_1\Maryam_Demo_1.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.71
+Time Elapsed 00:00:01.11

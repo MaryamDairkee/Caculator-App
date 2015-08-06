@@ -17,6 +17,7 @@
 #define IDM_SUB					111
 #define IDM_MUL					112
 #define IDM_DIV					113
+#define IDM_REM					118
 #define IDC_LHS					114
 #define IDC_RHS					115
 #define IDC_RESULT					116

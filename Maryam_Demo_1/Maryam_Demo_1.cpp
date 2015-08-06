@@ -5,7 +5,7 @@
 #include "Maryam_Demo_1.h"
 
 #define MAX_LOADSTRING 100
-enum operation {ADD,SUB,MUL,DIV};
+enum operation {ADD,SUB,MUL,DIV,REM};
         operation op = ADD;
 // Global Variables:
 HINSTANCE hInst;								// current instance
@@ -212,6 +212,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             SetDlgItemText(hWnd, IDC_OPBUTTON, TEXT("/"));
             op = DIV;
             break;
+		case IDM_REM:
+            SetDlgItemText(hWnd, IDC_OPBUTTON, TEXT("%"));
+            op = REM;
+            break;
 
 		case IDC_OPBUTTON:
 			{
@@ -251,6 +255,17 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			else
 			{
 				result=lhs/rhs;
+				break;
+			}
+			case REM:
+			if(rhs==0)
+			{
+				SetDlgItemText(hWnd, IDC_RESULT, TEXT("undefined"));
+				return 0;
+			}
+			else
+			{
+				result=lhs%rhs;
 				break;
 			}
 		}
